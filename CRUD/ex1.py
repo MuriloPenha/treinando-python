@@ -1,3 +1,5 @@
+print('ENTREI NO EX1')
+
 import os
 
 tarefas = []
@@ -54,7 +56,7 @@ def cadastrar_nova_tarefa():
 def listar_tarefas():
     exibir_subtitulo('Listando tarefas')
 
-    print(f'{'Nome da tarefa'.ljust(22)} | {'Descrição'.ljust(20)} | Status')
+    print(f'{ "Nome da tarefa".ljust(22) } | { "Descrição".ljust(20) } | Status')
     for tarefa in tarefas:
         nome_tarefa = tarefa['nome']
         descricao = tarefa['descricao']
